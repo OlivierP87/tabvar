@@ -25,7 +25,7 @@ int main()
 	fgets(func,20,stdin);
 
 	printf("Liste de valeurs remarquables \n");
-	fgets(remar,245,stdin);
+	fgets(remar,256,stdin);
 
 
 	// calcul du nombres de valeurs remarquables
@@ -50,7 +50,7 @@ int main()
 	printf("NB = %d\n",NB);
 
 	printf("Liste de signe de la dérivée, %d valeurs \n", NB1);
-	fgets(signe,245,stdin);
+	fgets(signe,256,stdin);
 	
 	// calcul du nombres de signes
 	n=strlen(signe);
